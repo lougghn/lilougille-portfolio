@@ -14,7 +14,6 @@ import { Languages } from '@/components/sections/languages'
 import { Passions } from '@/components/sections/passions'
 import { Philosophy } from '@/components/sections/philosophy'
 import { Vision } from '@/components/sections/vision'
-import { Productions } from '@/components/sections/productions'
 import { Contact } from '@/components/sections/contact'
 import { Outro } from '@/components/sections/outro'
 
@@ -38,7 +37,6 @@ export default function Page() {
         <Passions />
         <Philosophy />
         <Vision />
-        <Productions />
         <Contact />
         <Outro />
       </main>

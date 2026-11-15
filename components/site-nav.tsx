@@ -10,7 +10,6 @@ const LINKS = [
   { href: '#methode', label: 'Méthode' },
   { href: '#experiences', label: 'Expériences' },
   { href: '#competences', label: 'Compétences' },
-  { href: '#productions', label: 'Productions' },
   { href: '#contact', label: 'Contact' },
 ]
 
