@@ -41,8 +41,8 @@ export function SiteNav() {
           href="#top"
           className="font-heading text-lg tracking-tight text-foreground"
         >
+          <span aria-hidden="true" className="mr-2 text-gold">⚜</span>
           Lilou&nbsp;Gille
-          <span className="text-gold">.</span>
         </a>
 
         <ul className="hidden items-center gap-8 lg:flex">

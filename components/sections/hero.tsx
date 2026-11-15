@@ -37,6 +37,15 @@ export function Hero() {
         style={{ y, opacity }}
         className="relative z-10 mx-auto w-full max-w-5xl px-6 py-32 text-center lg:px-10"
       >
+        <motion.span
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, ease: easeLuxe, delay: 0.2 }}
+          className="mb-8 block text-5xl text-gold drop-shadow-[0_0_18px_rgba(232,185,74,0.35)]"
+          aria-hidden="true"
+        >
+          ⚜
+        </motion.span>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -55,7 +64,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.1, ease: easeLuxe, delay: 0.55 }}
-          className="mt-8 font-heading text-6xl leading-[0.95] tracking-tight text-foreground text-balance sm:text-7xl md:text-8xl lg:text-9xl"
+          className="mt-8 font-heading text-6xl font-normal italic leading-[0.95] tracking-tight text-foreground text-balance sm:text-7xl md:text-8xl lg:text-9xl"
         >
           Lilou Gille
         </motion.h1>
